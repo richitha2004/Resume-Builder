@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+
+<link rel="icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/e0/2f/f4/e02ff40f-c857-1702-59b2-26c144ededc3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png">
+    <style>
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+        body {margin:0;font-family:Arial}
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .active {
+          background-color: #c412d4;
+          color: white;
+        }
+        
+        .topnav .icon {
+          display: none;
+        }
+        
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+          font-size: 17px;    
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .topnav a:hover, .dropdown:hover .dropbtn {
+          background-color: #555;
+          color: white;
+        }
+        
+        .dropdown-content a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        @media screen and (max-width: 600px) {
+          .topnav a:not(:first-child), .dropdown .dropbtn {
+            display: none;
+          }
+          .topnav a.icon {
+            float: right;
+            display: block;
+          }
+        }
+        
+        @media screen and (max-width: 600px) {
+          .topnav.responsive {position: relative;}
+          .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          .topnav.responsive .dropdown {float: none;}
+          .topnav.responsive .dropdown-content {position: relative;}
+          .topnav.responsive .dropdown .dropbtn {
+            display: block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+        .responsive {
+  width: 100%;
+  height: auto;
+}
+         
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+    background-color: rgba(163, 13, 163, 0.774);
+    padding: 10px;
+   
+  }
+  </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+    
+        <div class="dropdown">
+          <button class="dropbtn">Resume 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="resumetemplates.html">Resume Templates</a>
+            <a href="resume examples.html">Resume Examples</a>
+            <a href="resume tips.html">How to write a resume</a>
+    
+          </div>
+        </div> 
+        <a href="#about">About</a>
+        <a href="#Contact Us">Contact Us</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign up</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <img src="https://www.theladders.com/wp-content/uploads/resume-190916.jpg" alt="Nature" class="responsive" width="600" height="400">
+      <div class="text-overlay" style="font-size-8vw;">
+       <center>RESUME BUILDER</center>
+
+      </div>
+      </div>
+      <h1 style="color:blue">Is this the best website to build your resume..</h1>
+      <h2 align="center" style="color:rgb(157, 70, 197)" >Get your resume as you like</h2>
+      <p align="center" style="color:#1ca9c9">Choose your own font type,font sizes,spacing as you like.<br>You can bold,italicise,highlight,underline your own text.<br>We take care of everything to let you experince best reume building with our templates</p>
+      <h2 align="center" style="color:rgb(157, 70, 197)" >Professional Templates</h2>
+      <p align="center" style="color:#1ca9c9">Choose your own font type,font sizes,spacing as you like.<br>Make use of our professional,elegant,creative and modern resume templates to build your resume.<br>We provide over 10+ resume templates for you to build your own resume</p>
+      <h2 align="center" style="color:rgb(157, 70, 197)" >Tips to build your resume</h2>
+      <p align="center" style="color:#1ca9c9">You need not to worry about your resume building.<br>We guide you through the process step by step.<br>Providing you with evry writing tip to get your resume shortlisted.</p>
+      <section id="Contact Us" style="text-align: center;" class="Contact Us">
+        <br><br><br>
+        <h1 style="text-align: center;">CONTACT US</h1>
+        <div class="contact-info">
+          <p>
+            &nbsp;&nbsp;Connect with us on social media
+          </p>
+          <ul>
+            <p>
+              Gmail : resumebuilder@gmail.com
+            </p>
+            <p>
+              Phone : 123-456-7890
+            </p>
+          </ul>
+        </div>
+    </body>
+</html>
+
